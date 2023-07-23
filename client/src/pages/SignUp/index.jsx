@@ -13,7 +13,6 @@ import { Container, Form, Background } from "./styles";
 
 export function SignUp() {
   const data = useAuth();
-  console.log(data);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
